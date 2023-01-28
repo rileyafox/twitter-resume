@@ -16,7 +16,9 @@ function Widgets() {
             </div>
 
             <div className="widgets__widgetContainer">
-            <h2>What's happening</h2>
+            <h2>Proficient with: </h2>
+
+            
 
             <TwitterTweetEmbed tweetId={"1337777796446380033"} />
 
@@ -25,11 +27,6 @@ function Widgets() {
             screenName="rileyfox134"
             options={{ height: 400 }}
             />
-
-            <TwitterShareButton
-            url={"https://facebook.com/cleverprogrammer"}
-            options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
-         />
       </div>
     </div>
   );
