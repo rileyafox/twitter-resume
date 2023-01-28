@@ -3,6 +3,8 @@
     align-items: flex-start;
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
+    
+    
 }
 
 .post__body{
@@ -10,7 +12,22 @@
     padding: 10px;
 }
 
+.post__header{
+     display: block;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     width: 100%;
+     height: 100%;
+}
 
+.post__header img{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    
+    
+}
 
 .post__body > img {
     border-radius: 20px;
@@ -19,6 +36,8 @@
 .post__headerDescription {
     margin-bottom: 10px;
     font-size: 15px;
+    
+    
 }
 
 .post__headerText > h3 {

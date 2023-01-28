@@ -1,19 +1,16 @@
 .feed{
-    flex: 0.4;
+
     border-right: 1px var(--twitter-background);
-    min-width: fit-content;
+    min-width: 30%;
+    max-width:50%;
     overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* firefox */
 }
 
 /* hide scrollbar for chrome,safari */
 .feed::-webkit-scrollbar {
     display: none;
-}
- 
-/* Hide scroll bar for IE, Edge, and Firefox */
-.feed {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* firefox */
 }
 
 .feed__header {
