@@ -1,7 +1,28 @@
 .widgets {
     flex: 0.3;
   }
+
+  .row{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 4px;
+    min-width: 20%
+  }
   
+  .column{
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertial-align: middle;
+    width: 100%;
+  }
+
+
   .widgets__input {
     display: flex;
     align-items: center;
@@ -27,6 +48,8 @@
     padding: 20px;
     background-color: #f5f8fa;
     border-radius: 20px;
+    
+    
   }
   
   .widgets__widgetContainer > h2 {
