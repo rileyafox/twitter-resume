@@ -6,13 +6,15 @@
     display: flex;
     flex-wrap: nowrap;
     padding: 0 4px;
-    min-width: 20%
+    min-width: 20%;
   }
   
   .column{
     flex: 30%;
     max-width: 30%;
     padding: 0 4px;
+    border: 1px solid var(--twitter-background);
+    border-radius: 10px;
 
   }
 
@@ -20,6 +22,13 @@
     margin-top: 8px;
     vertial-align: middle;
     width: 100%;
+  }
+
+  .widgets__iconContainer{
+    padding-bottom: 25px;
+  }
+  .widgets__textContainer {
+    border-top: 5px solid var(--twitter-background);
   }
 
 
@@ -52,7 +61,18 @@
     
   }
   
-  .widgets__widgetContainer > h2 {
-    font-size: 18px;
+  .widgets__widgetContainer > h3 {
+    font-size: 16px;
     font-weight: 800;
+  }
+
+  .widgets__skillBlockContainer {
+    margin-bottom: 15px;
+  }
+  .widgets__skillBlockContainer > h3 {
+    margin: 0;
+  }
+  .widgets__skillBlockContainer > p {
+    padding-left: 12px;
+    margin: 0;
   }

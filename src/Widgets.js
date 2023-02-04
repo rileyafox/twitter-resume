@@ -25,30 +25,42 @@ function Widgets() {
       </div>
 
       <div className="widgets__widgetContainer">
-        <h2>Proficient with: </h2>
 
-        <div class="row">
-          <div class="column"><img src = {HTMLIcon}/></div>
-          <div class="column"><img src = {CSSIcon}/></div>
-          <div class="column"><img src = {JavascriptIcon}/></div>
+        <div className="widgets__iconContainer">
+          <h3>Proficient with: </h3>
+
+          <div class="row">
+            <div class="column"><img src = {HTMLIcon}/></div>
+            <div class="column"><img src = {CSSIcon}/></div>
+            <div class="column"><img src = {JavascriptIcon}/></div>
+          </div>
+
+          <div class="row">
+            <div class="column"><img src = {ReactIcon}/></div>
+            <div class="column"><img src = {PythonIcon}/></div>
+            <div class="column"><img src = {DotNetIcon}/></div>
+          </div>
         </div>
 
-        <div class="row">
-          <div class="column"><img src = {ReactIcon}/></div>
-          <div class="column"><img src = {PythonIcon}/></div>
-          <div class="column"><img src = {DotNetIcon}/></div>
+        <div className="widgets__textContainer">
+          <h3>You might like [these skills] </h3>
+          <div className="widgets__skillBlockContainer">
+            <h3>#DetailOriented</h3>
+            <p>Highly organized with careful attention to detail and ability to prioritize effectively to manage multiple concurrent projects</p>
+          </div>
+          <div className="widgets__skillBlockContainer">
+            <h3>#RemoteWorker</h3>
+            <p>Comfortable working remotely with stakeholders across time zones.</p>
+          </div>
+          <div className="widgets__skillBlockContainer">
+            <h3>#Motivated</h3>
+            <p>Quick learner, self-starter, and adaptable to situations.</p>
+          </div>
+          <div className="widgets__skillBlockContainer">
+            <h3>#Communicator</h3>
+            <p>Strong written and verbal communication skills.</p>
+          </div>
         </div>
-
-        <h2>You might like</h2>
-        <h2>[these skills]</h2>
-        <h2>#DetailOriented</h2>
-        <h2>Highly organized with careful attention to detail and ability to prioritize effectively to manage multiple concurrent projects</h2>
-        <h2>#RemoteWorker</h2>
-        <h2>Comfortable working remotely with stakeholders across time zones.</h2>
-        <h2>#Motivated</h2>
-        <h2>Quick learner, self-starter, and adaptable to situations.</h2>
-        <h2>#Communicator</h2>
-        <h2>Strong written and verbal communication skills.</h2>
       </div>
     </div>
   );
